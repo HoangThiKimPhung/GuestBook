@@ -43,6 +43,8 @@
                    		<td><c:out value="${entry.id}"></c:out></td>
                    		<td><c:out value="${entry.name}"></c:out></td>
                    		<td><c:out value="${entry.message}"></c:out></td>
+                   		<td><a href="editcomment.jsp?id=${entry.id }">Edit</a></td>
+	               		<td><a href="DeleteComment?id=${entry.id }">Delete</a></td>
                     </tr>
                	</c:forEach>
             </tbody>

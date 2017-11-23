@@ -11,7 +11,7 @@ public class ConnectDB {
 				
 		try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            connect=DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=TH_LTW;user=sa;password=12345678");            
+            connect=DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=LTW_GuestBook;user=sa;password=12345678");            
             
         } catch (ClassNotFoundException | SQLException e) {
             return null;
